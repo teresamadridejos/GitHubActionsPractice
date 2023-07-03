@@ -1,0 +1,15 @@
+name: Bienvenida!
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  steps:
+  - name: Date 
+    run: date
+
+  - name: List directory
+    run: ls -l
